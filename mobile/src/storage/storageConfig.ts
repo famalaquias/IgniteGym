@@ -1,0 +1,7 @@
+/* CHAVES PARA ARMAZENAR OS DADOS DO USUÁRIO NO STORAGE */
+const USER_STORAGE = '@ignitegym:user';
+
+/* CHAVES DE AUTENTICAÇÃO */
+const AUTH_TOKEN_STORAGE = '@ignitegym:token';
+
+export { USER_STORAGE, AUTH_TOKEN_STORAGE };
