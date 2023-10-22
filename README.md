@@ -2,6 +2,7 @@
   <h1 align="center"><a href="https://ignite-timer-eight-swart.vercel.app/">🏃‍♀️ IgniteGym </a></h1>
 </p>
 
+
 ## 🎨 Layout
 
 ![gym](https://github.com/famalaquias/IgniteGym/assets/98343640/5cfad76e-ec09-46ee-a9e5-bf6cb6013dbd)
@@ -16,11 +17,6 @@ Após realizar um exercício você pode marcá-lo como realizado, e então ele f
 
 Projeto feito em React Native para dispositivos móveis, que contém o uso do componente Async Storage, isto é, se você fechar a aplicação os dados que 
 inseriu nela estarão lá na próxima vez que você abri-la.
-
-
-## 🚀 Projeto
-
-![igniteteams execution](https://github.com/famalaquias/IgniteTeams/assets/98343640/0dc0c97f-f17e-4e0f-bc69-37c6c5592be9)
 
 
 ## :hammer_and_wrench: Ferramentas Utilizadas
@@ -54,6 +50,7 @@ $ git clone git@github.com:famalaquias/IgniteGym.git
 
 ___
 
+
 #### 🚧 Executando o Projeto em Backend
 
 ```bash
@@ -65,6 +62,9 @@ $ npm install
 
 # Agora rode o comando
 $ npm run start
+```
+
+___
 
 
 #### 🚧 Executando o Projeto em Frontend
