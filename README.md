@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center"><a href="https://ignite-timer-eight-swart.vercel.app/">🏃‍♀️ IgniteGym🏃‍♀ </a></h1>
+  <h1 align="center"><a href="https://ignite-timer-eight-swart.vercel.app/">🏃‍♀️ IgniteGym </a></h1>
 </p>
 
 ## 🎨 Layout
@@ -9,11 +9,10 @@
 
 ## :page_with_curl: Sobre
 
-O Ignite Teams é uma aplicação que tem como objetivo organizar times para jogos com os amigos. 
+O Ignite Gym é uma aplicação que tem como objetivo gerenciar e controlar seus treinos na academia. Nela você pode criar usuários, fazer uso de tokens de autenticação, gerenciar suas senhas cadastradas, seus exercícios físicos e a sua foto de perfil.
 
-Nela você pode criar times, equipes/turmas, adicionar os usuários desejados dentro delas, enfim, organizar as suas jogadas. Além disso, a aplicação é dividida em 2 times, 
-podendo os jogadores separar sua equipe em 2 times diferentes. Na tela inicial da aplicação você terá que cadastrar sua equipe, podendo ver todo seu time cadastrado, além de adicionar e remover os usuários que desejar e, também, apagar
-essa equipe. 
+É de suma importância ressaltar que a aplicação dispôe de um backend em Node.js com uma grande variedade de exercícios cadastrados e divididos em categorias, de modo que fique mais fácil ao usuário filtrá-los pela categoria desejada e receber os comandos e o modo de execução dos mesmos. 
+Após realizar um exercício você pode marcá-lo como realizado, e então ele ficará salvo em seu histórico.
 
 Projeto feito em React Native para dispositivos móveis, que contém o uso do componente Async Storage, isto é, se você fechar a aplicação os dados que 
 inseriu nela estarão lá na próxima vez que você abri-la.
@@ -32,12 +31,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [StyledComponents](https://styled-components.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Native](https://reactnative.dev/)
+- [Native Base]([https://reactnative.dev/](https://nativebase.io/))
 - [React Hook Form](https://react-hook-form.com/)
 - [React Navigation](https://reactnavigation.org/)
 - [Native Stack Navigator](https://reactnavigation.org/docs/native-stack-navigator/)
 - [Async Storage](https://reactnative.dev/docs/asyncstorage)
+- [Yup]([https://phosphoricons.com/](https://github.com/jquense/yup))
 - [ESLint](https://eslint.org/)
 - [PhosphorIcons](https://phosphoricons.com/)
+- [Expo Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+- [React Navigation Botton Tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 
 ## ⚙ Instalação
@@ -45,22 +49,35 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto para o local desejado em seu computador.
 
 ```bash
-$ git clone git@github.com:famalaquias/IgniteTeams.git
+$ git clone git@github.com:famalaquias/IgniteGym.git
 ```
 
 ___
 
-#### 🚧 Executando o Projeto
+#### 🚧 Executando o Projeto em Backend
 
 ```bash
 # Navegue até o diretório 
-$ cd IgniteTimer
+$ cd IgniteGym
 
 # Instale as dependências necessárias
 $ npm install
 
 # Agora rode o comando
-$ expo start
+$ npm run start
+
+
+#### 🚧 Executando o Projeto em Frontend
+
+```bash
+# Com o back-end rodando, abra um novo terminal e navegue até o diretório
+$ cd mobile
+
+# Instale as dependências necessárias
+$ npm install
+
+# Agora rode o comando
+$ npm run start
 
 # Eu seu celular instale o aplicativo Expo Go na PlaySto
 
