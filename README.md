@@ -44,9 +44,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Clone o projeto para o local desejado em seu computador.
 
-`````````````````````````````````````````````````````````````````````````````````````````bash
+```bash
 $ git clone git@github.com:famalaquias/IgniteGym.git
-`````````````````````````````````````````````````````````````````````````````````````````````
+```
 
 ___
 
